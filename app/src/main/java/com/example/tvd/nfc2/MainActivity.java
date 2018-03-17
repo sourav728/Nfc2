@@ -60,6 +60,7 @@ public class MainActivity extends Activity {
                     } else {
                         write(message.getText().toString(), myTag);
                         Toast.makeText(context, WRITE_SUCCESS, Toast.LENGTH_LONG ).show();
+                        tvNFCContent.setText("");
                     }
                 } catch (IOException e) {
                     Toast.makeText(context, WRITE_ERROR, Toast.LENGTH_LONG ).show();
