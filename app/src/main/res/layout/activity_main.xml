@@ -29,6 +29,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="2"
             android:textColor="#FAFAFA"
+            android:ems="10"
             android:textColorHint="#FAFAFA"
             android:hint="message" />
         <Button
@@ -40,6 +41,15 @@
     </LinearLayout>
     <TextView
         android:id="@+id/nfc_contents"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textColor="#FAFAFA"
+        />
+    <TextView
+        android:id="@+id/nfc_tagid"
         android:layout_marginLeft="10dp"
         android:layout_marginRight="10dp"
         android:layout_width="match_parent"
